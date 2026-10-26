@@ -171,6 +171,3 @@ Q25:1127.35	Q50:6501.38	Q75:49173.11
 作业运行成功的 YARN ResourceManager Web 页面截图（7 个 `lab2-*` 作业均为 SUCCEEDED）：
 
 ![YARN 运行成功](figures/yarn_web.png)
-
-> 将截图保存为 `figures/yarn_web.png` 后即可正常显示（`实验报告.tex` 也引用同一张图）；
-> 截图方法见根目录 `重启后运行指南.md`。
