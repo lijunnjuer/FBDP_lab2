@@ -101,7 +101,7 @@ hadoop jar $JAR lab2.Task5 $TRAIN $TEST /user/$USER/lab2/task5_model /user/$USER
 ...
 ```
 
-机构 `1001` 的客户数、总资产、总负债与示例一致；逾期客户数为 32（经 `awk` 校验 `bad_good==1` 数量即为 32）。
+机构 `1001`：1254 个客户，总资产 184485852.19，总负债 112193577.37，逾期客户数 32（即 `bad_good==1` 的客户数，经 `awk` 校验）。
 
 ### 任务2（`output/task2/part-r-00000`，共 687 个机构，节选）
 
