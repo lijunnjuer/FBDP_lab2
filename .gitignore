@@ -1,0 +1,21 @@
+# 编译产物：target 目录只保留打好的 jar 包
+target/*
+!target/*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# 日志
+*.log
+logs/
+
+# LaTeX 编译中间产物（实验报告.tex）
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
